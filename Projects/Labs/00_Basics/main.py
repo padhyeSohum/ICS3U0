@@ -4,7 +4,7 @@
 #
 # Author:      Sohum Padhye
 # Created:     18-Feb-2025
-# Updated:     18-Sep-2025
+# Updated:     18-Feb-2025
 #-----------------------------------------------------------------------------
 
 # take the number of hours and divide by seven to get daily study hours
