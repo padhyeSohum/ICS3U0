@@ -1,3 +1,12 @@
+#-----------------------------------------------------------------------------
+# Name:        Tuple Operations
+# Purpose:     To explore various tuple operations and properties
+#
+# Author:      Sohum Padhye
+# Created:     6-Mar-2025
+# Updated:     6-Mar-2025
+#-----------------------------------------------------------------------------
+
 # initialize tuples
 your_favourites = ("movie01", "movie02", "movie03", "movie04", "movie05")
 person1_favourites = ("movie04", "movie05", "movie06", "movie07", "movie08")
