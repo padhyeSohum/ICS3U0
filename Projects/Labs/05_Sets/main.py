@@ -75,4 +75,4 @@ if len(person3_uniques) > 0: print("Person 3 the only person who likes: " + str(
 
 # set of all movies that are unique to each person's favourites
 all_uniques = your_uniques.union(person1_uniques, person2_uniques, person3_uniques)
-print("All of the favourite movies that only one person likes are: " + str(all_uniques))  
+print("All of the favourite movies that only one person likes are: " + str(all_uniques))
