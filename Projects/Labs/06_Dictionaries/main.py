@@ -58,10 +58,13 @@ print(all_favourites[2]["movie05"])
 
 # Use a loop to count occurrences of specific movies across all dictionaries
 test_movie = "movie04"
+count = 0
 test_number_of_occurences = 0
 for i in all_favourites:
     if test_movie in i:
         count += 1
+
+print(count)
 
 # Task 4: Dictionary Methods
 # Use the keys() method to get all movies from your_favorites
