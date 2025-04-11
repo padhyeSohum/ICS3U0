@@ -1,0 +1,85 @@
+Software: 
+- Python
+- Vscode
+- Dmoj
+-------------------------------------------------------
+
+Scope: 
+- D is non negative
+- E is positive
+- Q is positive
+
+Edge Cases:
+E = 0 -> print(D)
+E = 1 -> print(D +- Q)
+All Q are 1 -> print(D +- Q1 +- Q2 +-... +- Qn)
+---------------------------------------------------------
+
+Test 1 (Negative D value, treat D value as if positive):
+input:
+-10
+1
++
+3
+
+expected output:
+13
+
+output:
+-7
+test not passed
+
+fix:
+convert D to the opposite value
+-----------------------------------------------
+
+Test 2 (With zero events print D):
+input:
+10
+0
+
+expected output:
+10
+
+output:
+10 
+test passed
+-----------------------------------------
+
+Test 3 (With negative number of events, treat E as positive):
+input:
+10
+-1
++3
+
+expected output: 
+13
+
+output:
+10
+test not passed
+
+fix:
+convert E to the opposite value
+
+-------------------------------------------
+
+Test 4 (With negative Q, treat Q as positive):
+input:
+10
+2
++
+-3
+-
+-6
+
+expected output:
+7
+
+output:
+13
+test not passed
+
+fix:
+convert Q to the opposite value
+
