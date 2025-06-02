@@ -3,8 +3,8 @@
 # Purpose:     To use functions to convert a user-inputted number of units into another unit
 #
 # Author:      Sohum Padhye
-# Created:     2-May-2025
-# Updated:     6-May-2025
+# Created:     7-May-2025
+# Updated:     9-May-2025
 #-----------------------------------------------------------------------------
 
 # convert temperature from Celsius to Fahrenheit
@@ -107,19 +107,19 @@ def time_to_minutes(hours, minutes):
     return total_minutes
 
 try:
-    print(celsius_to_fahrenheit(50))
-    print(celsius_to_fahrenheit('hi'))
-    print(celsius_to_fahrenheit(-280))
+    print(f"671 degrees Celsius is {celsius_to_fahrenheit(671):,.2f} degrees Fahrenheit")
+    # print(celsius_to_fahrenheit('hi'))
+    # print(celsius_to_fahrenheit(-280))
 
-    print(miles_to_kilometers(100))
-    print(miles_to_kilometers('hi'))
-    print(miles_to_kilometers(-0.5))
+    print(f"250586726.6852 miles is {miles_to_kilometers(250586726.6852):,.2f} kilometres.")
+    # print(miles_to_kilometers('hi'))
+    # print(miles_to_kilometers(-0.5))
 
-    print(time_to_minutes(10, 20))
-    print(time_to_minutes('fjkdls', 0))
-    print(time_to_minutes(10, 'fjdksl'))
-    print(time_to_minutes(-2, 10))
-    print(time_to_minutes(0, 70))
+    print(f"{time_to_minutes(10, 20):,.2f}")
+    # print(time_to_minutes('fjkdls', 0))
+    # print(time_to_minutes(10, 'fjdksl'))
+    # print(time_to_minutes(-2, 10))
+    # print(time_to_minutes(0, 70))
 
 except Exception as e:
     print("Something went wrong:", e)
